@@ -1,0 +1,43 @@
+.nav-wrapper {
+    background: #7700FF;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-wrapper > .left-side > .logo {
+    color: rgb(236, 236, 236)
+}
+
+.nav-wrapper > .left-side {
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.nav-wrapper .right-side {
+    padding-right: 50px;
+}
+
+.nav-wrapper .right-side :hover{
+    transition: 0.5s;
+    background: #8223ed;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    float: left
+}
+
+header nav ul li a {
+    padding: 1.5em;
+    text-transform: uppercase;
+    font-size: .8em;
+    color: rgb(236, 236, 236);
+}
+
